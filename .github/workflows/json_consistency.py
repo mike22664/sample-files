@@ -5,7 +5,6 @@ import sys
 from pathlib import Path
 
 from pydantic import BaseModel, NonNegativeInt
-
 from pypdf import PdfReader
 
 logger = logging.getLogger()
